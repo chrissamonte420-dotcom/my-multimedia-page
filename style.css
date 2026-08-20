@@ -1,0 +1,22 @@
+/* General page styling */
+body { 
+    font-family: sans-serif; 
+    margin: 40px; 
+    background-color: #f4f4f4; 
+}
+
+/* Individual media cards */
+.media-container { 
+    background: white; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+
+/* Ensures media blocks scale nicely */
+video, audio, iframe { 
+    display: block; 
+    margin-top: 10px; 
+    max-width: 50%; 
+}
